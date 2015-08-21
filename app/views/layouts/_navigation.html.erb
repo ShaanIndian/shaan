@@ -36,24 +36,9 @@
       tab.highlights_on :controller => :home, :action => :index
     end
     nav.add_tab do |tab|
-      tab.named "About"
-      tab.links_to about_path
-      tab.highlights_on :controller => :about
-    end
-    nav.add_tab do |tab|
       tab.named "Menu"
       tab.links_to menu_path
       tab.highlights_on :controller => :menu
-    end
-    nav.add_tab do |tab|
-      tab.named "Gallery"
-      tab.links_to gallery_path
-      tab.highlights_on :controller => :gallery
-    end
-    nav.add_tab do |tab|
-      tab.named "Contact"
-      tab.links_to contact_path
-      tab.highlights_on :controller => :contact
     end
   end
 %>
