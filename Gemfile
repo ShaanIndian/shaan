@@ -28,6 +28,13 @@ gem 'jbuilder', '~> 2.0'
 # bundle exec rake doc:rails generates the API under doc/api.
 gem 'sdoc', '~> 0.4.0', group: :doc
 
+gem 'bootstrap-sass', '~> 3.3.5'
+gem 'font-awesome-sass', '~> 4.4.0'
+gem "animate-rails"
+gem 'parallax-rails'
+gem 'wow-rails'
+gem 'slick_rails'
+
 # A useful console
 gem 'pry-byebug'
 gem 'pry-doc'
@@ -38,6 +45,7 @@ gem 'pry-stack_explorer'
 
 # Testing
 gem 'rspec'
+gem 'response_code_matchers'
 gem 'rspec-html-matchers'
 gem 'rspec-collection_matchers'
 gem 'rspec-mocks'

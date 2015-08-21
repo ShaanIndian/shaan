@@ -13,4 +13,11 @@
 //= require jquery
 //= require jquery_ujs
 //= require turbolinks
+//= require bootstrap-sprockets
+//= require parallax
+//= require jquery.parallax
+//= require wow
+//= require ie10-viewport-bug-workaround
+//= require retina
 //= require_tree .
+
