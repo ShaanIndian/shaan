@@ -46,6 +46,9 @@ gem 'shoulda'
 gem 'factory_girl_rails', require: false
 gem 'lorem-ipsum'
 
+# Tabbed navigation
+gem 'tabnav'
+
 # Exception reporting
 gem 'rollbar'
 
