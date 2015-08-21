@@ -11,10 +11,9 @@
                     <div class="col col-md-7">
                         <!-- Main Image Content Class -->
                         <div class="mainimg-content">
-                            <h4 class="wow fadeInDown" data-wow-offset="50" data-wow-duration="0.5s" data-wow-delay="0.1s">Welcome to comida!</h4>
+                            <h4 class="wow fadeInDown" data-wow-offset="50" data-wow-duration="0.5s" data-wow-delay="0.1s">Welcome to Shaan Indian!</h4>
                             <h1 class="wow fadeInLeft" data-wow-offset="50" data-wow-duration="0.5s" data-wow-delay="0.7s">We are Excited <span>to Cook for</span> You <span>Today</span>!</h1>
-                            <p class="wow fadeInUp" data-wow-offset="50" data-wow-duration="0.5s" data-wow-delay="1.3s"><span>Comida</span> - Spices from all over the World selected
-                                <br />just for You. For the perfect food Experience.</p>
+                            <p class="wow fadeInUp" data-wow-offset="50" data-wow-duration="0.5s" data-wow-delay="1.3s"><span>Shaan Indian</span> - We're pleased to present a wide selection of Indian haute cuisine made from the finest and freshest ingredients.</p>
                         </div>
                     </div>
                     <!-- Main Image Content Class ends -->
@@ -28,35 +27,13 @@
                                 <!-- Book Table Form -->
                                 <form id="bk_form" action="php/book.php" method="post">
                                     <p class="icon">
-                                        <i class="fa fa-calendar"></i>
+                                        <i class="fa fa-comments"></i>
                                     </p>
-                                    <h3>Book a table</h3>
-                                    <h4 class="tagline">Great Food needs perfect Ingredients</h4>
+                                    <h3>Yelp Reviews</h3>
                                     <p class="text-center diam_img">
                                         <%= image_tag('diamond') %>
                                     </p>
-                                    <div id="response">
-                                        <!--This will hold our error messages and the response from the server. -->
-                                    </div>
-                                    <div class="form-group">
-                                        <label class="control-label" for="numguest">Guest:</label>
-                                        <input class="form-control" id="numguest" type="number" name="numguest" placeholder="How Many Guests" />
-                                    </div>
-                                    <div class="form-group">
-                                        <label for="emailid">Email:</label>
-                                        <input class="form-control" type="email" id="emailid" placeholder="Your Email Address" name="emailid" />
-                                    </div>
-                                    <div class="form-group">
-                                        <label>Date and Time:</label>
-                                        <input type="text" id="datetimepick" class="datetimepick" placeholder="When do you want to Book" name="datetimepick" />
-                                    </div>
-                                    <div class="form-group">
-                                        <label for="suggestions">Your Suggestions:</label>
-                                        <textarea name="suggestions" id="suggestions" placeholder="How can we help you?" rows="4"></textarea>
-                                    </div>
-                                    <div class="form-group">
-                                        <button id="submit" name="submit" type="submit" class="btn btn-1 btn-1e">Make Your Booking</button>
-                                    </div>
+                                    <!-- Populate with reviews -->
                                 </form>
                                 <!-- Book Table Form Ends -->
                             </div>
