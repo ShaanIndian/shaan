@@ -1,10 +1,15 @@
 source 'https://rubygems.org'
 
+ruby '2.2.3'
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.2.3'
-# Use sqlite3 as the database for Active Record
-gem 'sqlite3'
+
+# Use sqlite3 for non-production
+gem 'sqlite3', groups: [:development, :test]
+# Database
+gem 'pg', groups: [:production]
+
 # Use SCSS for stylesheets
 gem 'sass-rails', '~> 5.0'
 # Use Uglifier as compressor for JavaScript assets
@@ -12,7 +17,7 @@ gem 'uglifier', '>= 1.3.0'
 # Use CoffeeScript for .coffee assets and views
 gem 'coffee-rails', '~> 4.1.0'
 # See https://github.com/rails/execjs#readme for more supported runtimes
-# gem 'therubyracer', platforms: :ruby
+gem 'therubyracer', platforms: :ruby
 
 # Use jquery as the JavaScript library
 gem 'jquery-rails'
@@ -22,6 +27,27 @@ gem 'turbolinks'
 gem 'jbuilder', '~> 2.0'
 # bundle exec rake doc:rails generates the API under doc/api.
 gem 'sdoc', '~> 0.4.0', group: :doc
+
+# A useful console
+gem 'pry-byebug'
+gem 'pry-doc'
+gem 'pry-rails'
+gem 'pry-remote'
+gem 'pry-rescue'
+gem 'pry-stack_explorer'
+
+# Testing
+gem 'rspec'
+gem 'rspec-html-matchers'
+gem 'rspec-collection_matchers'
+gem 'rspec-mocks'
+gem 'rspec-rails'
+gem 'shoulda'
+gem 'factory_girl_rails', require: false
+gem 'lorem-ipsum'
+
+# Exception reporting
+gem 'rollbar'
 
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
