@@ -24,7 +24,7 @@
         <!-- Row -->
         <div class="row head_top">
           <!-- Main Navigation -->
-          <div class="col col-md-5 hidden-xs hidden-sm">
+          <div class="col col-md-5">
             <nav class="cl-effect-4">
               <!-- #navigation -->
               <div id="navigation">
@@ -69,38 +69,8 @@
               </li>
             </ul>
           </div>
-          <!-- Navigation between 1024px - 768px -->
-          <div class="col col-md-5 hidden-lg hidden-md hidden-xs">
-            <nav class="cl-effect-4">
-              <!-- #navigation -->
-              <div id="navigation_tab">
-                <%= yield :navigation %>
-              </div>
-              <!-- #navigation ends -->
-            </nav>
-          </div>
 
           <div class="clearfix"></div>
-          <!-- Responsive Menu below 768px -->
-          <div class="col col-md-12 hidden-lg hidden-md hidden-sm">
-            <!-- Bootstrap Menu -->
-            <nav class="navbar navbar-default">
-              <!-- Brand and toggle get grouped for better mobile display -->
-              <div class="navbar-header">
-                <button type="button" data-target="#navbarCollapse" data-toggle="collapse" class="navbar-toggle">
-                  <span class="sr-only">Toggle navigation</span>
-                  <span class="icon-bar"></span>
-                  <span class="icon-bar"></span>
-                  <span class="icon-bar"></span>
-                </button>
-                <a href="#" class="navbar-brand">Menu</a>
-              </div>
-              <!-- Collection of nav links and other content for toggling -->
-              <div id="navbarCollapse" class="collapse navbar-collapse">
-                <%= yield :mobile_navigation %>
-              </div>
-            </nav>
-          </div>
         </div>
         <!-- Row Ends -->
       </div>

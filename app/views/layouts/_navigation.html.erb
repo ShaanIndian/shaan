@@ -13,19 +13,4 @@
       end
     end
   end
-
-  content_for :mobile_navigation do
-    render_tabnav class: 'nav navbar-nav' do |nav|
-      nav.add_tab do |tab|
-        tab.named "Home"
-        tab.links_to root_path
-        tab.highlights_on :controller => :index
-      end
-      nav.add_tab do |tab|
-        tab.named "Menu"
-        tab.links_to menu_path
-        tab.highlights_on :controller => :menu
-      end
-    end
-  end
 %>

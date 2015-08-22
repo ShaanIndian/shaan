@@ -1429,41 +1429,6 @@ textarea:focus {
     height: 346px;
 }
 
-/* 19. Navigation Styles */
-
-.navbar-brand {
-    font-family: 'Raleway', sans-serif;
-    font-size: 18px;
-    margin: 0;
-}
-
-.navbar-nav > li > a {
-    font-size: 14px;
-    margin: 0;
-}
-
-.navbar-default {
-    margin: 0 15px;
-    margin-left: 30px;
-}
-
-.navbar-default .navbar-toggle {
-    border: none;
-}
-
-.navbar-default .navbar-toggle:focus,
-.navbar-default .navbar-toggle:hover {
-    background: none;
-}
-
-.navbar-default .navbar-toggle:hover span.icon-bar {
-    background: #aaa;
-}
-
-.navbar-default .navbar-nav>li>a:focus,
-.navbar-default .navbar-nav>li>a:hover {
-    background: #e0e0e0;
-}
 /* 20. Responsive */
 
 @media all and (min-width: 1350px) {
