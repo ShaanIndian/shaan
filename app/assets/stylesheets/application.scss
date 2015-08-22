@@ -283,13 +283,13 @@ section {
     color: #000;
 }
 
-.menu.top-menu li.selected a {
+.menu.top-menu li.active a {
     color: #dfa240;
 }
 
 .cl-effect-4 a:hover::after,
 .cl-effect-4 a:focus::after,
-.cl-effect-4 li.selected a::after {
+.cl-effect-4 li.active a::after {
     background: #dfa240;
     height: 2px;
     margin-top: 4px;

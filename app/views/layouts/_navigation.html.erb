@@ -1,45 +1,31 @@
-<ul class="menu top-menu">
-    <li class="selected">
-        <a href="index.html">Home </a>
-    </li>
-    <li>
-        <a href="about.html">About </a>
-    </li>
-    <li>
-        <a href="menu.html">
-            <span data-hover="MENU">Menu</span>
-        </a>
-    </li>
-    <li>
-        <a href="gallery.html">
-            <span data-hover="GALLERY">Gallery</span>
-        </a>
-    </li>
-    <li>
-        <a href="reservation.html">
-            <span data-hover="RESERVATION">Reservation</span>
-        </a>
-    </li>
-    <li>
-        <a href="contact.html">
-            <span data-hover="CONTACT">Contact</span>
-        </a>
-    </li>
-</ul>
-
-<!--
 <%
-  render_tabnav class: 'menu top-menu' do |nav|
-    nav.add_tab do |tab|
-      tab.named "Home"
-      tab.links_to root_path
-      tab.highlights_on :controller => :home, :action => :index
+  content_for :navigation do
+    render_tabnav class: 'menu top-menu' do |nav|
+      nav.add_tab do |tab|
+        tab.named "Home"
+        tab.links_to root_path
+        tab.highlights_on :controller => :index
+      end
+      nav.add_tab do |tab|
+        tab.named "Menu"
+        tab.links_to menu_path
+        tab.highlights_on :controller => :menu
+      end
     end
-    nav.add_tab do |tab|
-      tab.named "Menu"
-      tab.links_to menu_path
-      tab.highlights_on :controller => :menu
+  end
+
+  content_for :mobile_navigation do
+    render_tabnav class: 'nav navbar-nav' do |nav|
+      nav.add_tab do |tab|
+        tab.named "Home"
+        tab.links_to root_path
+        tab.highlights_on :controller => :index
+      end
+      nav.add_tab do |tab|
+        tab.named "Menu"
+        tab.links_to menu_path
+        tab.highlights_on :controller => :menu
+      end
     end
   end
 %>
--->
