@@ -12,12 +12,16 @@
 //
 //= require jquery
 //= require jquery_ujs
+//= require jquery.simple-dtpicker
+//= require jquery.migrate
+//= require classie
 //= require turbolinks
 //= require bootstrap-sprockets
 //= require parallax
 //= require jquery.parallax
+//= require submit
+//= require slick
 //= require wow
 //= require ie10-viewport-bug-workaround
 //= require retina
 //= require_tree .
-
