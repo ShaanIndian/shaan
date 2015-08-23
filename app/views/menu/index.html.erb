@@ -9,23 +9,16 @@
 </section>
 <!-- Heading Section Ends  -->
 
-<!-- Divider 1 -->
+<!--
 <div class="divider1"></div>
-<!-- Divider 1 Ends -->
 
-<!-- Menu Section 1 -->
 <section id="menu-1" class="menu-items">
-  <!-- Container -->
   <div class="container">
-    <!-- Row -->
     <div class="row">
-      <!-- Menu Items -->
       <div class="col col-md-6 col-sm-6 wow fadeInLeft" data-wow-offset="50" data-wow-duration="0.5s" data-wow-delay="0.1s">
-        <!-- Menu Titles -->
         <div class="menu-title">
           <h2>Starters</h2>
         </div>
-        <!-- Menu Title End -->
         <div class="menu-list">
           <div class="row">
             <div class="col col-md-10 col-sm-10 col-xs-9 menu-item-name">
@@ -64,16 +57,11 @@
           </div>
         </div>
       </div>
-      <!-- Menu Item Ends -->
 
       <div class="col col-md-6 col-sm-6 wow fadeInRight" data-wow-offset="50" data-wow-duration="0.5s" data-wow-delay="0.6s">
-        <!-- Menu Titles -->
         <div class="menu-title">
           <h2>Breakfast</h2>
         </div>
-        <!-- Menu Title Ends -->
-
-        <!-- Menu List -->
         <div class="menu-list">
           <div class="row">
             <div class="col col-md-10 col-sm-10 col-xs-9 menu-item-name">
@@ -110,175 +98,75 @@
             <div class="clearfix"></div>
           </div>
         </div>
-        <!-- Menu List Ends -->
       
       </div>
       <div class="clearfix"></div>
     </div>
-    <!-- Row Ends -->
-  </div>
-  <!-- Container Ends -->
-</section>
-<!-- Section Menu 1 Ends -->
-
-<!-- Divider 2 -->
-<div class="divider2"></div>
-<!-- Divider 2 Ends -->
-
-<!-- Section Page Sub Title  -->
-<section class="parallax-window page-sub-title img_overlay" data-parallax="scroll" data-image-src="http://placehold.it/1350x900/666666">
-  <div class="container">
-    <div class="row">
-      <div class="col col-md-12">
-        <h3 class="page-subtitle">Discover</h3>
-        <h2 class="page-title">Main Dishes</h2>
-      </div>
-      <div class="clearfix"></div>
-    </div>
   </div>
 </section>
-<!-- Page Sub Title Ends -->
 
-<!-- Divider 1 -->
-<div class="divider1"></div>
-<!-- Divider 1 Ends -->
+-->
 
-<!-- Section Menu - -->      
-<section id="menu-2" class="menu-items">
-  <!-- Container -->
-  <div class="container">
-    <!-- Row -->
-    <div class="row">
-      <div class="col-md-12">
-        <!-- Menu Title -->
-        <div class="menu-title">
-          <h2>Main Dishes</h2>
-        </div>
-        <!-- Menu Title Ends -->
-      </div>
-      <div class="clearfix"></div>
-      <!-- Menu List -->
-      <div class="col col-md-6 col-sm-6 wow fadeInLeft" data-wow-offset="50" data-wow-duration="0.5s" data-wow-delay="0.6s">
-        <div class="menu-list">
-          <div class="row">
-            <div class="col col-md-10 col-sm-10 col-xs-9 menu-item-name">
-              <p class="main-item-title">Eturio covero eostn des justo. Lorem ipsum</p>
-              <p class="sub">Duolore constetur sadip dona sit amascing elitrvero</p>
-            </div>
-            <div class="col col-md-2 col-sm-2 col-xs-3 menu-item-price">
-              <p>$4.90</p>
-            </div>
-            <div class="clearfix"></div>
-            <div class="col col-md-10 col-sm-10 col-xs-9 menu-item-name">
-              <p class="main-item-title">Lorem ipsum dolor sit amet dolore</p>
-              <p class="sub">Sando donmingo sit amet</p>
-            </div>
-            <div class="col col-md-2 col-sm-2 col-xs-3 menu-item-price">
-              <p>$5.90</p>
-            </div>
-            <div class="clearfix"></div>
-            <div class="col col-md-10 col-sm-10 col-xs-9 menu-item-name">
-              <p class="main-item-title">Eostn des justo. sit amet concelibere tradionale</p>
-              <p class="sub">Dona sit amascing elitrvero loabre iat</p>
-            </div>
-            <div class="col col-md-2 col-sm-2 col-xs-3 menu-item-price">
-              <p>$3.90</p>
-            </div>
-            <div class="clearfix"></div>
-            <div class="col col-md-10 col-sm-10 col-xs-9 menu-item-name">
-              <p class="main-item-title">Cnsetetur sad garodiane noeros st</p>
-              <p class="sub">Elitrvero lobre dona eltivore eos sadipi sit</p>
-            </div>
-            <div class="col col-md-2 col-sm-2 col-xs-3 menu-item-price">
-              <p>$6.90</p>
-            </div>
-            <div class="clearfix"></div>
-            <div class="col col-md-10 col-sm-10 col-xs-9 menu-item-name">
-              <p class="main-item-title">Eturio covero eostn des justo. Lorem ipsum</p>
-              <p class="sub">Duolore constetur sadip dona sit amascing elitrvero</p>
-            </div>
-            <div class="col col-md-2 col-sm-2 col-xs-3 menu-item-price">
-              <p>$4.90</p>
-            </div>
-            <div class="clearfix"></div>
-            <div class="col col-md-10 col-sm-10 col-xs-9 menu-item-name">
-              <p class="main-item-title">Lorem ipsum dolor sit amet dolore</p>
-              <p class="sub">Sando donmingo sit amet</p>
-            </div>
-            <div class="col col-md-2 col-sm-2 col-xs-3 menu-item-price">
-              <p>$5.90</p>
-            </div>
-            <div class="clearfix"></div>
+<% items_by_category.each do |category, items| %>
+  <div class="divider1"></div>
+
+  <section id="menu-2" class="menu-items">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <div class="menu-title">
+            <h2><%= category.name %></h2>
+            <p><%= category.description %></p>
           </div>
         </div>
-      </div>
-
-      <div class="col col-md-6 col-sm-6 wow fadeInRight" data-wow-offset="50" data-wow-duration="0.5s" data-wow-delay="0.1s">
-        <div class="menu-list">
-          <div class="row">
-            <div class="col col-md-10 col-sm-10 col-xs-9 menu-item-name">
-              <p class="main-item-title">Eturio covero eostn des justo. Lorem ipsum</p>
-              <p class="sub">Duolore constetur sadip dona sit amascing elitrvero</p>
+        <div class="clearfix"></div>
+        <div class="col col-md-6 col-sm-6 wow fadeInLeft" data-wow-offset="50" data-wow-duration="0.5s" data-wow-delay="0.6s">
+          <div class="menu-list">
+            <div class="row">
+              <% first_column_of_items(items).each do |item| %>
+                <div class="col col-md-10 col-sm-10 col-xs-9 menu-item-name">
+                  <p class="main-item-title"><%= item.name %></p>
+                  <p class="sub">
+                    <%= item.description %>
+                    <%= "(#{item.quantity})" if item.quantity.present? %>
+                  </p>
+                </div>
+                <div class="col col-md-2 col-sm-2 col-xs-3 menu-item-price">
+                  <p><%= item.price %></p>
+                </div>
+                <div class="clearfix"></div>
+              <% end %>
             </div>
-            <div class="col col-md-2 col-sm-2 col-xs-3 menu-item-price">
-              <p>$4.90</p>
-            </div>
-            <div class="clearfix"></div>
-            <div class="col col-md-10 col-sm-10 col-xs-9 menu-item-name">
-              <p class="main-item-title">Lorem ipsum dolor sit amet dolore</p>
-              <p class="sub">Sando donmingo sit amet</p>
-            </div>
-            <div class="col col-md-2 col-sm-2 col-xs-3 menu-item-price">
-              <p>$5.90</p>
-            </div>
-            <div class="clearfix"></div>
-            <div class="col col-md-10 col-sm-10 col-xs-9 menu-item-name">
-              <p class="main-item-title">Eostn des justo. sit amet concelibere tradionale</p>
-              <p class="sub">Dona sit amascing elitrvero loabre iat</p>
-            </div>
-            <div class="col col-md-2 col-sm-2 col-xs-3 menu-item-price">
-              <p>$3.90</p>
-            </div>
-            <div class="clearfix"></div>
-            <div class="col col-md-10 col-sm-10 col-xs-9 menu-item-name">
-              <p class="main-item-title">Cnsetetur sad garodiane noeros st</p>
-              <p class="sub">Elitrvero lobre dona eltivore eos sadipi sit</p>
-            </div>
-            <div class="col col-md-2 col-sm-2 col-xs-3 menu-item-price">
-              <p>$6.90</p>
-            </div>
-            <div class="clearfix"></div>
-            <div class="col col-md-10 col-sm-10 col-xs-9 menu-item-name">
-              <p class="main-item-title">Eturio covero eostn des justo. Lorem ipsum</p>
-              <p class="sub">Duolore constetur sadip dona sit amascing elitrvero</p>
-            </div>
-            <div class="col col-md-2 col-sm-2 col-xs-3 menu-item-price">
-              <p>$4.90</p>
-            </div>
-            <div class="clearfix"></div>
-            <div class="col col-md-10 col-sm-10 col-xs-9 menu-item-name">
-              <p class="main-item-title">Lorem ipsum dolor sit amet dolore</p>
-              <p class="sub">Sando donmingo sit amet</p>
-            </div>
-            <div class="col col-md-2 col-sm-2 col-xs-3 menu-item-price">
-              <p>$5.90</p>
-            </div>
-            <div class="clearfix"></div>
           </div>
         </div>
-      </div>
-      <!-- Menu List Ends -->
-      <div class="clearfix"></div>
-    </div>
-    <!-- Row Ends -->
-  </div>
-  <!-- Container Ends -->
-</section>
-<!-- Section Menu 2 Ends -->
 
-<!-- Divider 2 -->
-<div class="divider2"></div>
-<!-- Divider 2 Ends -->
+        <div class="col col-md-6 col-sm-6 wow fadeInRight" data-wow-offset="50" data-wow-duration="0.5s" data-wow-delay="0.1s">
+          <div class="menu-list">
+            <div class="row">
+              <% second_column_of_items(items).each do |item| %>
+                <div class="col col-md-10 col-sm-10 col-xs-9 menu-item-name">
+                  <p class="main-item-title"><%= item.name %></p>
+                  <p class="sub">
+                    <%= item.description %>
+                    <%= "(#{item.quantity})" if item.quantity.present? %>
+                  </p>
+                </div>
+                <div class="col col-md-2 col-sm-2 col-xs-3 menu-item-price">
+                  <p><%= item.price %></p>
+                </div>
+                <div class="clearfix"></div>
+              <% end %>
+            </div>
+          </div>
+        </div>
+        <div class="clearfix"></div>
+      </div>
+    </div>
+  </section>
+
+  <div class="divider2"></div>
+
+<% end %>
 
 <!-- Section Chalkboard Menu -->
 <section class="page-sub-title dec-border chalkbmenu parallax-window" data-parallax="scroll" data-image-src="<%= image_path("breackf.jpg") %>">
